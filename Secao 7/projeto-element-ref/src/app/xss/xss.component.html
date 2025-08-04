@@ -1,0 +1,3 @@
+<input type="text" placeholder="Digite algo..." #inputXss />
+<button (click)="createElement(inputXss.value)">Criar Elemento</button>
+<button (click)="createElementSafe(inputXss.value)">Criar Elemento Safe</button>
