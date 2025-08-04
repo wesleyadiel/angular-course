@@ -1,0 +1,15 @@
+<div class="cards-container">
+  <app-card
+    [planType]="planoSimples.planType"
+    [planPrice]="planoSimples.planPrice"
+    [style]="planoSimples.cardStyle"
+    (buttonClicked)="onCardButtonClicked(planoSimples)"
+  ></app-card>
+
+  <app-card
+    [planType]="planoAvancado.planType"
+    [planPrice]="planoAvancado.planPrice"
+    [style]="planoAvancado.cardStyle"
+    (buttonClicked)="onCardButtonClicked(planoAvancado)"
+  ></app-card>
+</div>

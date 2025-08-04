@@ -1,0 +1,27 @@
+<app-sem-diretiva></app-sem-diretiva>
+<app-com-diretiva></app-com-diretiva>
+
+<button disabled>Meu botão</button>
+<button appDisabled>Meu botão attr directive</button>
+
+<br />
+<br />
+<p appStyle>Meu paragrafo com diretiva</p>
+
+<p class="meu-texto">Meu paragrafo - class</p>
+<p [attr.class]="'meu-texto'">Meu paragrafo - [attr.class]</p>
+<p [className]="'meu-texto meu-size'">Meu paragrafo - [className]</p>
+
+<p [class]="{ 'meu-texto': true, 'meu-size': true }">Meu paragrafo - [class]</p>
+
+<p appClass>Meu paragrafo - Diretiva</p>
+
+<br />
+<br />
+
+<input appListener />
+
+<br />
+<br />
+
+<input appInputBackground="blue" textColor="white" />

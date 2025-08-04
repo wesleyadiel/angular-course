@@ -1,0 +1,9 @@
+# Ignorar dependências
+**/node_modules/
+**/dist/
+
+# Editor e sistema
+.DS_Store
+*.log
+*.swp
+*.tmp

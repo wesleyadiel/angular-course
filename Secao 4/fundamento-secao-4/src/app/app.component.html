@@ -1,0 +1,37 @@
+<input
+  id="meu-input"
+  [value]="inputText"
+  [type]="inputType"
+  [disabled]="isDisabled"
+  (keyup)="handleInputKeyup($event)"
+/>
+
+<br />
+
+<button (click)="enableInput()">Habilitar</button>
+<button (click)="disableInput()">Desabilitar</button>
+
+<br />
+
+<button (click)="setPasswordTypeInput()">Password</button>
+<button (click)="setTextTypeInput()">Text</button>
+
+<br />
+
+<button (click)="log()">Log</button>
+
+<br />
+<br />
+<br />
+
+<button [style.width]="widthButton1" [style.backgroundColor]="'blue'">
+  Botao 1
+</button>
+
+<br />
+<br />
+<br />
+
+<button [style.width.px]="'150'" [style.backgroundColor]="'pink'">
+  Botao 2
+</button>

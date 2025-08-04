@@ -1,0 +1,20 @@
+<h1
+  [ngClass]="{
+  'is-big is-green': isGreen,
+  'is-orange': !isGreen,
+}"
+>
+  Sou H1 1
+</h1>
+
+<h1
+  [class]="{
+  'is-green': isGreen,
+  'is-orange': !isGreen,
+}"
+>
+  Sou H1 2
+</h1>
+
+<button (click)="setToGreen()">Set to Green</button>
+<button (click)="setToOrange()">Set to Orange</button>

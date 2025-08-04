@@ -1,0 +1,44 @@
+<input type="text" #meuInput ngModel /> Value: {{ meuInput.value }}
+<br />
+<button (click)="clicou(meuInput)">Input</button>
+
+<br />
+<input type="text" #meuInput2 />
+<button (click)="updateInput2()">Update Input 2</button>
+<button (click)="focusInput2()">Focus Input 2</button>
+
+<br />
+
+<div #minhaDiv>Conteudo inicial</div>
+<br />
+<button (click)="updateDivContent()">Mudar Conte</button>
+
+<br />
+<br />
+<br />
+<br />
+
+<app-filho #filhoComp></app-filho>
+<button (click)="hellou()">Dizer Oi</button>
+
+<br />
+<br />
+<br />
+<br />
+
+<button
+  #meuButton
+  *ngFor="let button of buttonsList"
+  (click)="changeColor($event)"
+>
+  {{ button }}
+</button>
+
+<br />
+<button (click)="resetButtons()">Resetar</button>
+
+<br />
+<button (click)="first()">Primeiro Item</button>
+
+<br />
+<button (click)="remove()">Remover Item</button>
