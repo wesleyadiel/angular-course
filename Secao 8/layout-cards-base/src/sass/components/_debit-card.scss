@@ -5,27 +5,27 @@
   background-color: white;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 
-  & .debit-card__header {
+  &__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: rgb(222, 145, 0);
-
-    & .debit-card__header__item {
-      display: flex;
-      align-items: center;
-      font-weight: bold;
-
-      & img {
-        width: 40px;
-        height: 40px;
-        margin-right: 5px;
-      }
-    }
   }
 
-  & .debit-card__content {
+  &__header-item {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  &__header-item-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  &__content {
     width: 100%;
     padding: 20px;
     font-size: 16px;
