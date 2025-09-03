@@ -1,0 +1,38 @@
+.balance-card {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+  &__content {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+  }
+
+  &__content-item {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__content-description {
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  & .balance-card__total {
+    background-color: rgb(222, 222, 222);
+    margin: 20px;
+  }
+
+  &__total-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
