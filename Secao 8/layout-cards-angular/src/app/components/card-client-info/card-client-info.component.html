@@ -1,0 +1,16 @@
+<div class="client-infos-card">
+  <app-card-header
+    [text]="Titulo"
+    [srcIcon]="SrcIcon"
+    [color]="StyleHeader"
+  ></app-card-header>
+  <div class="client-infos-card__content">
+    <div *ngFor="let item of ItensList">
+      <app-card-item
+        [Text]="item.key"
+        [SecondaryText]="item.value"
+      ></app-card-item>
+      <app-divider></app-divider>
+    </div>
+  </div>
+</div>

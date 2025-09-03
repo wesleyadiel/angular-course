@@ -1,0 +1,14 @@
+.debit-card {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+  &__content {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+  }
+}

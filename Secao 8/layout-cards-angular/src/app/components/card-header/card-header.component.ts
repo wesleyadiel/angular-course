@@ -10,4 +10,5 @@ export class CardHeaderComponent {
   @Input() text: string = '';
   @Input() srcIcon: string = '';
   @Input() subText: string = '';
+  @Input() color: 'primary' | 'secondary' = 'primary';
 }

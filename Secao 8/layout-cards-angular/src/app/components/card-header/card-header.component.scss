@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: rgb(222, 145, 0);
   }
 
   &__header-item {
@@ -18,4 +17,12 @@
     height: 40px;
     margin-right: 5px;
   }
+}
+
+.primary {
+  background-color: rgb(222, 145, 0);
+}
+
+.secondary {
+  background-color: rgb(0, 145, 222);
 }
