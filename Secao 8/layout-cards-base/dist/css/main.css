@@ -44,7 +44,7 @@ body {
     font-size: 16px;
     color: #323232; }
   .balance-card__content-item {
-    padding: 0 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between; }
@@ -58,13 +58,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px; }
+    padding: 20px; }
 
 .divider {
-  height: 2px;
-  width: 100%;
-  background-color: #ccc;
-  margin: 20px 0; }
+  border: 0.5px solid #9e9e9e; }
 
 .credit-card {
   width: 100%;
@@ -94,17 +91,15 @@ body {
     gap: 20px;
     flex-direction: row; }
   .credit-card__content-client {
-    padding: 0 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 50px; }
+    justify-content: space-between; }
   .credit-card__content-item {
-    padding: 0 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 25px 0; }
+    justify-content: space-between; }
 
 .debit-card {
   width: 100%;
@@ -166,8 +161,7 @@ body {
     justify-content: space-between;
     margin-bottom: 50px; }
   .client-infos-card__content-item {
-    padding: 0 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 25px 0; }
+    justify-content: space-between; }
